@@ -2,6 +2,7 @@ import Spotlight from "./components/Spotlight";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <main>
           <Hero />
           <Projects />
+          <Experience />
         </main>
       </div>
     </>
