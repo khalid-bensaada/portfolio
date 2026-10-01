@@ -1,7 +1,17 @@
+import Spotlight from "./components/Spotlight";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 export default function App() {
   return (
-    <h1 className="text-5xl font-bold text-blue-700 p-10">
-      Khalid Bensaada
-    </h1>
-  )
+    <>
+      <Spotlight />
+      <div className="relative z-10">
+        <Navbar />
+        <main>
+          <Hero />
+        </main>
+      </div>
+    </>
+  );
 }
